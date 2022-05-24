@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		09D49C962839666900817A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49C952839666900817A5E /* AppDelegate.swift */; };
-		09D49C982839666900817A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49C972839666900817A5E /* SceneDelegate.swift */; };
-		09D49C9A2839666900817A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49C992839666900817A5E /* ViewController.swift */; };
-		09D49C9D2839666900817A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D49C9B2839666900817A5E /* Main.storyboard */; };
 		09D49C9F2839666B00817A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D49C9E2839666B00817A5E /* Assets.xcassets */; };
 		09D49CA22839666B00817A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D49CA02839666B00817A5E /* LaunchScreen.storyboard */; };
+		09D49CAC283966B100817A5E /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CAB283966B100817A5E /* AppFlowController.swift */; };
+		09D49CB62839689F00817A5E /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CB52839689F00817A5E /* MainFlowController.swift */; };
+		09D49CB92839692100817A5E /* ProductsFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CB82839692100817A5E /* ProductsFlowController.swift */; };
+		09D49CBC2839697700817A5E /* BasketFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CBB2839697700817A5E /* BasketFlowController.swift */; };
+		09D49CBF283969B100817A5E /* CabinetFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CBE283969B100817A5E /* CabinetFlowController.swift */; };
+		09D49CC528396A4B00817A5E /* CabinetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CC428396A4B00817A5E /* CabinetController.swift */; };
+		09D49CC828396A7000817A5E /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CC728396A7000817A5E /* BasketController.swift */; };
+		09D49CCB28396A9400817A5E /* ProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CCA28396A9400817A5E /* ProductsController.swift */; };
+		09D49CD028396C6F00817A5E /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D49CCF28396C6F00817A5E /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09D49C922839666900817A5E /* GuitarStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D49C952839666900817A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09D49C972839666900817A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09D49C992839666900817A5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09D49C9C2839666900817A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09D49C9E2839666B00817A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D49CA12839666B00817A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D49CA32839666B00817A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D49CAB283966B100817A5E /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		09D49CB52839689F00817A5E /* MainFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		09D49CB82839692100817A5E /* ProductsFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFlowController.swift; sourceTree = "<group>"; };
+		09D49CBB2839697700817A5E /* BasketFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketFlowController.swift; sourceTree = "<group>"; };
+		09D49CBE283969B100817A5E /* CabinetFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetFlowController.swift; sourceTree = "<group>"; };
+		09D49CC428396A4B00817A5E /* CabinetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetController.swift; sourceTree = "<group>"; };
+		09D49CC728396A7000817A5E /* BasketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		09D49CCA28396A9400817A5E /* ProductsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsController.swift; sourceTree = "<group>"; };
+		09D49CCF28396C6F00817A5E /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,77 @@
 		09D49C942839666900817A5E /* GuitarStore */ = {
 			isa = PBXGroup;
 			children = (
-				09D49C952839666900817A5E /* AppDelegate.swift */,
-				09D49C972839666900817A5E /* SceneDelegate.swift */,
-				09D49C992839666900817A5E /* ViewController.swift */,
-				09D49C9B2839666900817A5E /* Main.storyboard */,
+				09D49CB2283967EB00817A5E /* Flows */,
+				09D49CB1283967E200817A5E /* Application */,
+				09D49CCE28396C3300817A5E /* Extensions */,
+				09D49CB0283967C600817A5E /* Resources */,
+			);
+			path = GuitarStore;
+			sourceTree = "<group>";
+		};
+		09D49CB0283967C600817A5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				09D49C9E2839666B00817A5E /* Assets.xcassets */,
 				09D49CA02839666B00817A5E /* LaunchScreen.storyboard */,
 				09D49CA32839666B00817A5E /* Info.plist */,
 			);
-			path = GuitarStore;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09D49CB1283967E200817A5E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				09D49C952839666900817A5E /* AppDelegate.swift */,
+				09D49CAB283966B100817A5E /* AppFlowController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		09D49CB2283967EB00817A5E /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				09D49CB52839689F00817A5E /* MainFlowController.swift */,
+				09D49CC1283969FF00817A5E /* ProductsFlow */,
+				09D49CC228396A0C00817A5E /* BasketFlow */,
+				09D49CC328396A1800817A5E /* CabinetFlow */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		09D49CC1283969FF00817A5E /* ProductsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				09D49CB82839692100817A5E /* ProductsFlowController.swift */,
+				09D49CCA28396A9400817A5E /* ProductsController.swift */,
+			);
+			path = ProductsFlow;
+			sourceTree = "<group>";
+		};
+		09D49CC228396A0C00817A5E /* BasketFlow */ = {
+			isa = PBXGroup;
+			children = (
+				09D49CBB2839697700817A5E /* BasketFlowController.swift */,
+				09D49CC728396A7000817A5E /* BasketController.swift */,
+			);
+			path = BasketFlow;
+			sourceTree = "<group>";
+		};
+		09D49CC328396A1800817A5E /* CabinetFlow */ = {
+			isa = PBXGroup;
+			children = (
+				09D49CBE283969B100817A5E /* CabinetFlowController.swift */,
+				09D49CC428396A4B00817A5E /* CabinetController.swift */,
+			);
+			path = CabinetFlow;
+			sourceTree = "<group>";
+		};
+		09D49CCE28396C3300817A5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09D49CCF28396C6F00817A5E /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +200,6 @@
 			files = (
 				09D49CA22839666B00817A5E /* LaunchScreen.storyboard in Resources */,
 				09D49C9F2839666B00817A5E /* Assets.xcassets in Resources */,
-				09D49C9D2839666900817A5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +210,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D49C9A2839666900817A5E /* ViewController.swift in Sources */,
+				09D49CBF283969B100817A5E /* CabinetFlowController.swift in Sources */,
+				09D49CB62839689F00817A5E /* MainFlowController.swift in Sources */,
+				09D49CD028396C6F00817A5E /* UIViewControllerExtensions.swift in Sources */,
+				09D49CCB28396A9400817A5E /* ProductsController.swift in Sources */,
 				09D49C962839666900817A5E /* AppDelegate.swift in Sources */,
-				09D49C982839666900817A5E /* SceneDelegate.swift in Sources */,
+				09D49CAC283966B100817A5E /* AppFlowController.swift in Sources */,
+				09D49CC528396A4B00817A5E /* CabinetController.swift in Sources */,
+				09D49CBC2839697700817A5E /* BasketFlowController.swift in Sources */,
+				09D49CB92839692100817A5E /* ProductsFlowController.swift in Sources */,
+				09D49CC828396A7000817A5E /* BasketController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		09D49C9B2839666900817A5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09D49C9C2839666900817A5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		09D49CA02839666B00817A5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuitarStore/Info.plist;
+				INFOPLIST_FILE = GuitarStore/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuitarStore/Info.plist;
+				INFOPLIST_FILE = GuitarStore/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
